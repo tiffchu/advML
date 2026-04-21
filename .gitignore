@@ -9,4 +9,4 @@ data/processed/*.parquet
 __pycache__/
 #Jupyter
 .ipynb_checkpoints/
-data/
+#data/
