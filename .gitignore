@@ -1,0 +1,12 @@
+#Data
+data/raw/
+data/processed/*.parquet
+*.jsonl.gz
+
+#Environment
+.env
+#Python
+__pycache__/
+#Jupyter
+.ipynb_checkpoints/
+data/
