@@ -1,6 +1,6 @@
 #Data
 data/raw/
-data/processed/*.parquet
+# data/processed/*.parquet
 *.jsonl.gz
 
 #Environment
