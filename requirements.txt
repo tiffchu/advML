@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+matplotlib
+seaborn
+python-dotenv
+duckdb
+sentence-transformers
+rank-bm25
+langchain
+langchain-community
+datasets
+ollama
+faiss-cpu
