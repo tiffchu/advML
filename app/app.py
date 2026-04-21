@@ -103,10 +103,10 @@ def prepare_results_for_display(
 ) -> pd.DataFrame:
     display = results.copy()
 
-    needed_cols = {"chunk_id", "product_title", "rating", "text"}
+    needed_cols = {"chunk_id", "product_title", "rating", "chunk_text"}
     if "chunk_id" in display.columns and not needed_cols.issubset(display.columns):
         display = display.merge(
-            metadata[["chunk_id", "product_title", "rating", "text"]],
+            metadata[["chunk_id", "product_title", "rating", "chunk_text"]],
             on="chunk_id",
             how="left",
             suffixes=("", "_meta"),
